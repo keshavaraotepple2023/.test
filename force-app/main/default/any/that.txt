@@ -1,0 +1,27 @@
+As a user, I want to be able to create an Agent__c custom object with four fields: Name (text field), Phone (text field), Email (text field), and a lookup field to the Account object, so that I can easily view and manage the Agents associated with each Account.
+
+Acceptance Criteria:
+1. The Agent__c custom object should include four fields: Name, Phone, Email, and a lookup field to the Account object.
+2. The Name field should be a text field that will store the name of the Agent.
+3. The Phone field should be a text field that will store the phone number of the Agent.
+4. The Email field should be a text field that will store the email address of the Agent.
+5. The lookup field should link the Agent to the Account object.
+
+To fulfill this user story, we need to perform the following steps:
+
+1. Log in to the Salesforce platform.
+2. Navigate to the Object Manager by clicking on the App Launcher and selecting "Object Manager."
+3. Click on "New Custom Object" to create a new custom object.
+4. Enter "Agent__c" as the Label and "Agent" as the Plural Label.
+5. Select "Standard Object" as the Data Type and click on "Next."
+6. In the "Fields & Relationships" section, click on "New Custom Field" to create the Name field.
+7. Select "Text" as the Data Type and enter "Name" as the Field Label.
+8. Click on "Next" and set the desired field properties (e.g., length, required, unique).
+9. Repeat steps 6-8 to create the Phone and Email fields with the appropriate data types and field labels.
+10. To create the lookup field to the Account object, click on "New" in the "Lookup & Relationship" section.
+11. Select "Account" as the Related To object and click on "Next."
+12. Set the desired field properties for the lookup field (e.g., required, unique) and click on "Next."
+13. Configure the related list properties if necessary and click on "Next."
+14. Review the field properties and click on "Save" to create the Agent__c custom object.
+
+After completing these steps, you will have successfully created the Agent__c custom object with the required fields: Name, Phone, Email, and a lookup field to the Account object.
