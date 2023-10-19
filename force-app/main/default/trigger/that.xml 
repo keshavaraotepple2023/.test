@@ -1,0 +1,35 @@
+
+<trigger>
+  <conditions>
+    <condition>
+      <type>income</type>
+      <operator>greaterThan</operator>
+      <value>40000</value>
+    </condition>
+    <condition>
+      <type>sumAssured</type>
+      <operator>in</operator>
+      <values>50000, 100000, 150000, 200000</values>
+    </condition>
+    <condition>
+      <type>policyTenure</type>
+      <operator>in</operator>
+      <values>12, 15, 18, 24</values>
+    </condition>
+    <condition>
+      <type>otpAuthentication</type>
+      <operator>equals</operator>
+      <value>true</value>
+    </condition>
+  </conditions>
+  <actions>
+    <action>
+      <type>setEligibleForInsurance</type>
+      <value>true</value>
+    </action>
+    <action>
+      <type>coverSpouse</type>
+      <value>false</value>
+    </action>
+  </actions>
+</trigger>

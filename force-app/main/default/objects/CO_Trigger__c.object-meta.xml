@@ -1,0 +1,45 @@
+
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>Insurance_Member__c</name>
+    <label>Insurance Member</label>
+    <nameField>
+        <label>Member Name</label>
+        <type>Text</type>
+    </nameField>
+    <fields>
+        <fullName>Annual_Income__c</fullName>
+        <label>Annual Income</label>
+        <type>Number</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Sum_Assured__c</fullName>
+        <label>Sum Assured</label>
+        <type>Number</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Policy_Tenure__c</fullName>
+        <label>Policy Tenure</label>
+        <type>Number</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>OTP_Authentication_Received__c</fullName>
+        <label>OTP Authentication Received</label>
+        <type>Checkbox</type>
+        <required>true</required>
+    </fields>
+    <fields>
+        <fullName>Is_Eligible__c</fullName>
+        <label>Is Eligible</label>
+        <type>Checkbox</type>
+        <required>false</required>
+    </fields>
+    <fields>
+        <fullName>Spouse_Covered__c</fullName>
+        <label>Spouse Covered</label>
+        <type>Checkbox</type>
+        <required>false</required>
+    </fields>
+</CustomObject>
